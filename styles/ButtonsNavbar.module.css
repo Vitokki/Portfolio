@@ -2,8 +2,8 @@
   position: relative;
   border-radius: 100%;
   padding: 10px;
-  border: 3px solid #20e2d7;
-  background: transparent;
+  border: 3px solid #EE4266;
+  background: rgba(255, 255, 255, 0.50);
   outline: none;
   cursor: pointer;
   width: 40px;
@@ -14,14 +14,14 @@
 
 .button:hover {
   animation: shadow-pulse 1000ms 1;
-  background-color: #20e2d7;
+  background-color: #EE4266;
   color: #434343;
   border: 1px solid transparent;
 }
 
 @keyframes shadow-pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(32, 226, 216, 0.821);
+    box-shadow: 0 0 0 0 #ee4266;
   }
   100% {
     box-shadow: 0 0 5px 8px rgba(32, 226, 215, 0);
@@ -32,13 +32,58 @@
   position: absolute;
   font-size: 1.6rem;
   padding: 20px;
-  bottom: -14px;
-  left: -15.1px;
+  bottom: -14.5px;
+  left: -16px;
   transition: all 500ms ease-out;
-  color: #20e2d7;
+  color: #EE4266;
 }
 .iconHome:hover {
-  color:rgb(35, 35, 35);
-  bottom: -11.9px;
-  left: -13.1px;
+  color: rgb(255, 255, 255);
+  bottom: -12.5px;
+  left: -13.8px;
+}
+
+.iconAbout {
+  position: absolute;
+  font-size: 1.6rem;
+  padding: 20px;
+  bottom: -15.8px;
+  left: -16px;
+  transition: all 500ms ease-out;
+  color: #EE4266;
+}
+.iconAbout:hover {
+  color: rgb(255, 255, 255);
+  bottom: -13.8px;
+  left: -13.8px;
+}
+
+.icon2Dpage {
+  position: absolute;
+  font-size: 1.4rem;
+  padding: 20px;
+  bottom: -15px;
+  left: -14px;
+  transition: all 500ms ease-out;
+  color: #EE4266;
+}
+.icon2Dpage:hover {
+  color: rgb(255, 255, 255);
+  bottom: -13px;
+  left: -12px;
+}
+
+.icon3Dpage {
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 20px;
+  bottom: -15px;
+  left: -15px;
+  transition: all 500ms ease-out;
+  color: #EE4266;
+}
+.icon3Dpage:hover {
+  color: rgb(255, 255, 255);
+  bottom: -13px;
+  left: -13px;
 }

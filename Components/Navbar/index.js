@@ -1,7 +1,6 @@
 import styles from "../../styles/NavBar.module.css";
 import ButtonsNavbar from "./ButtonsNavbar";
 
-
 const Navbar = (props) => {
   return (
     <div className={styles.container}>
@@ -17,18 +16,21 @@ const Navbar = (props) => {
         isVisibleAboutPage={props.isVisibleAboutPage}
         isVisible2DPage={props.isVisible2DPage}
         isVisible3DPage={props.isVisible3DPage}
+        src="about"
       ></ButtonsNavbar>
       <ButtonsNavbar
         setIsVisible2DPage={props.setIsVisible2DPage}
         isVisibleAboutPage={props.isVisibleAboutPage}
         isVisible2DPage={props.isVisible2DPage}
         isVisible3DPage={props.isVisible3DPage}
+        src="2Dpage"
       ></ButtonsNavbar>
       <ButtonsNavbar
         setIsVisible3DPage={props.setIsVisible3DPage}
         isVisibleAboutPage={props.isVisibleAboutPage}
         isVisible2DPage={props.isVisible2DPage}
         isVisible3DPage={props.isVisible3DPage}
+        src="3Dpage"
       ></ButtonsNavbar>
     </div>
   );
